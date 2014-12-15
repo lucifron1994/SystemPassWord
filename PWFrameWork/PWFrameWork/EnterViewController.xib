@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="EnterViewController">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="thc-R7-T62"/>
+                <outletCollection property="indicators" destination="d8F-ZI-nNI" id="shf-p4-K4j"/>
+                <outletCollection property="numbers" destination="ujK-oX-GV5" id="acz-6Y-Ggl"/>
+                <outletCollection property="indicators" destination="owE-XM-fLF" id="2wC-lL-Hp4"/>
+                <outletCollection property="numbers" destination="jeN-fS-M9d" id="bhx-cK-Ndf"/>
+                <outletCollection property="numbers" destination="jD4-iu-0ng" id="V8P-CB-eHb"/>
+                <outletCollection property="numbers" destination="tOG-Lp-bbN" id="fOS-Xk-5Uc"/>
+                <outletCollection property="indicators" destination="iJJ-SI-0ya" id="VR3-Zg-Aze"/>
+                <outletCollection property="indicators" destination="1mN-3e-N2c" id="aWT-do-2tV"/>
+                <outletCollection property="numbers" destination="ceZ-Vh-FQT" id="lM0-kc-KC2"/>
+                <outletCollection property="numbers" destination="44u-GJ-eUV" id="8Ue-Jz-D8m"/>
+                <outletCollection property="numbers" destination="Tjb-ag-ngU" id="vfp-by-fEB"/>
+                <outletCollection property="numbers" destination="aZz-JU-Vei" id="f7f-K8-9hB"/>
+                <outletCollection property="numbers" destination="NSA-pq-AVl" id="zrY-G9-x40"/>
+                <outletCollection property="numbers" destination="kwC-k2-vIP" id="OTU-wx-fe2"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h86-GT-lXS">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="6Om-O3-gJB">
+                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LE9-hq-6N6">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="◦" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d8F-ZI-nNI">
+                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="57" y="51" width="60" height="60"/>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="◦" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iJJ-SI-0ya">
+                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="99" y="51" width="60" height="60"/>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="◦" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="owE-XM-fLF">
+                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="141" y="51" width="60" height="60"/>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="◦" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1mN-3e-N2c">
+                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="184" y="51" width="60" height="60"/>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="输入密码" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ntU-b7-N0E">
+                                        <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="107" y="16" width="86" height="32"/>
+                                        </variation>
+                                    </label>
+                                    <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NSA-pq-AVl">
+                                        <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                        <state key="normal" title="6">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted" backgroundImage="pureWhite"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="204" y="199" width="70" height="70"/>
+                                        </variation>
+                                        <connections>
+                                            <action selector="inputNumber:" destination="-1" eventType="touchUpInside" id="pHr-Jp-xGP"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ceZ-Vh-FQT">
+                                        <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                        <state key="normal" title="5">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted" backgroundImage="pureWhite"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="116" y="199" width="70" height="70"/>
+                                        </variation>
+                                        <connections>
+                                            <action selector="inputNumber:" destination="-1" eventType="touchUpInside" id="SoF-Fp-7Sz"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tjb-ag-ngU">
+                                        <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                        <state key="normal" title="1">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted" backgroundImage="pureWhite"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="28" y="104" width="70" height="70"/>
+                                        </variation>
+                                        <connections>
+                                            <action selector="inputNumber:" destination="-1" eventType="touchDown" id="Tfb-k8-qnV"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jeN-fS-M9d">
+                                        <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                        <state key="normal" title="3">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted" backgroundImage="pureWhite"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="204" y="104" width="70" height="70"/>
+                                        </variation>
+                                        <connections>
+                                            <action selector="inputNumber:" destination="-1" eventType="touchUpInside" id="Yix-Ac-t5I"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jD4-iu-0ng">
+                                        <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                        <state key="normal" title="7">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted" backgroundImage="pureWhite"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="28" y="293" width="70" height="70"/>
+                                        </variation>
+                                        <connections>
+                                            <action selector="inputNumber:" destination="-1" eventType="touchUpInside" id="HkD-MR-Yqa"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ujK-oX-GV5">
+                                        <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                        <state key="normal" title="9">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted" backgroundImage="pureWhite"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="204" y="293" width="70" height="70"/>
+                                        </variation>
+                                        <connections>
+                                            <action selector="inputNumber:" destination="-1" eventType="touchUpInside" id="gaS-kk-d9b"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="44u-GJ-eUV">
+                                        <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                        <state key="normal" title="2">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted" backgroundImage="pureWhite"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="116" y="104" width="70" height="70"/>
+                                        </variation>
+                                        <connections>
+                                            <action selector="inputNumber:" destination="-1" eventType="touchUpInside" id="EsI-Ed-nhx"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kwC-k2-vIP">
+                                        <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                        <state key="normal" title="8">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted" backgroundImage="pureWhite"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="116" y="293" width="70" height="70"/>
+                                        </variation>
+                                        <connections>
+                                            <action selector="inputNumber:" destination="-1" eventType="touchUpInside" id="2el-7l-W2c"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aZz-JU-Vei">
+                                        <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                        <state key="normal" title="0">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <state key="highlighted" backgroundImage="pureWhite"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="21"/>
+                                            <rect key="frame" x="115" y="378" width="70" height="70"/>
+                                        </variation>
+                                        <connections>
+                                            <action selector="inputNumber:" destination="-1" eventType="touchUpInside" id="t44-zc-a2f"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zrJ-9n-PHR">
+                                        <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" title="删除">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="222" y="398" width="30" height="30"/>
+                                        </variation>
+                                        <connections>
+                                            <action selector="delLastNumber:" destination="-1" eventType="touchDown" id="mVx-WR-pqP"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tOG-Lp-bbN">
+                                        <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                        <state key="normal" title="4">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <state key="highlighted" backgroundImage="pureWhite"/>
+                                        <variation key="widthClass=compact" fixedFrame="YES">
+                                            <rect key="frame" x="28" y="199" width="70" height="70"/>
+                                        </variation>
+                                        <connections>
+                                            <action selector="inputNumber:" destination="-1" eventType="touchUpInside" id="5ng-fN-sUG"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="Pul-BM-oQt"/>
+                                    <constraint firstAttribute="height" constant="448" id="hvf-6U-6bt"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="d8F-ZI-nNI"/>
+                                        <exclude reference="iJJ-SI-0ya"/>
+                                        <exclude reference="owE-XM-fLF"/>
+                                        <exclude reference="1mN-3e-N2c"/>
+                                        <exclude reference="ntU-b7-N0E"/>
+                                        <exclude reference="NSA-pq-AVl"/>
+                                        <exclude reference="ceZ-Vh-FQT"/>
+                                        <exclude reference="Tjb-ag-ngU"/>
+                                        <exclude reference="jeN-fS-M9d"/>
+                                        <exclude reference="jD4-iu-0ng"/>
+                                        <exclude reference="ujK-oX-GV5"/>
+                                        <exclude reference="44u-GJ-eUV"/>
+                                        <exclude reference="kwC-k2-vIP"/>
+                                        <exclude reference="aZz-JU-Vei"/>
+                                        <exclude reference="zrJ-9n-PHR"/>
+                                        <exclude reference="tOG-Lp-bbN"/>
+                                    </mask>
+                                    <mask key="constraints">
+                                        <exclude reference="Pul-BM-oQt"/>
+                                        <exclude reference="hvf-6U-6bt"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="subviews">
+                                        <include reference="d8F-ZI-nNI"/>
+                                        <include reference="iJJ-SI-0ya"/>
+                                        <include reference="owE-XM-fLF"/>
+                                        <include reference="1mN-3e-N2c"/>
+                                        <include reference="ntU-b7-N0E"/>
+                                        <include reference="NSA-pq-AVl"/>
+                                        <include reference="ceZ-Vh-FQT"/>
+                                        <include reference="Tjb-ag-ngU"/>
+                                        <include reference="jeN-fS-M9d"/>
+                                        <include reference="jD4-iu-0ng"/>
+                                        <include reference="ujK-oX-GV5"/>
+                                        <include reference="44u-GJ-eUV"/>
+                                        <include reference="kwC-k2-vIP"/>
+                                        <include reference="aZz-JU-Vei"/>
+                                        <include reference="zrJ-9n-PHR"/>
+                                        <include reference="tOG-Lp-bbN"/>
+                                    </mask>
+                                    <mask key="constraints">
+                                        <include reference="Pul-BM-oQt"/>
+                                        <include reference="hvf-6U-6bt"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="centerY" secondItem="LE9-hq-6N6" secondAttribute="centerY" id="ee9-jJ-izB"/>
+                            <constraint firstAttribute="centerX" secondItem="LE9-hq-6N6" secondAttribute="centerX" id="i5r-Yo-cBr"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="LE9-hq-6N6"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="ee9-jJ-izB"/>
+                                <exclude reference="i5r-Yo-cBr"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="LE9-hq-6N6"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="ee9-jJ-izB"/>
+                                <include reference="i5r-Yo-cBr"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <blurEffect style="dark"/>
+                </visualEffectView>
+            </subviews>
+            <color key="backgroundColor" name="selectedControlColor" catalog="System" colorSpace="catalog"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="h86-GT-lXS" secondAttribute="bottom" id="5og-Qm-ji6"/>
+                <constraint firstItem="h86-GT-lXS" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Nhm-Wt-f7r"/>
+                <constraint firstItem="h86-GT-lXS" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="dzN-2w-yNm"/>
+                <constraint firstAttribute="trailing" secondItem="h86-GT-lXS" secondAttribute="trailing" id="yj7-ZW-YAw"/>
+            </constraints>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="h86-GT-lXS"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="5og-Qm-ji6"/>
+                    <exclude reference="Nhm-Wt-f7r"/>
+                    <exclude reference="dzN-2w-yNm"/>
+                    <exclude reference="yj7-ZW-YAw"/>
+                </mask>
+            </variation>
+            <variation key="widthClass=compact">
+                <mask key="subviews">
+                    <include reference="h86-GT-lXS"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="5og-Qm-ji6"/>
+                    <include reference="Nhm-Wt-f7r"/>
+                    <include reference="dzN-2w-yNm"/>
+                    <include reference="yj7-ZW-YAw"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="-235" y="-592"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="pureWhite" width="155" height="155"/>
+    </resources>
+</document>
